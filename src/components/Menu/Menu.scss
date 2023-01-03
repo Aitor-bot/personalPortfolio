@@ -13,7 +13,7 @@
 
 .navigation_logo {
     text-decoration: none;
-    color: #213668;
+    color: #4980F8;
     font-size: 1.3rem;
     margin-left: 1rem;
 }
@@ -24,17 +24,19 @@
 
 }
 
+.navigation_menu a {
+    color: #4980F8;
+}
+
 .navigation_menu ul {
     display: flex;
     padding: 0;
   }
   .navigation_menu li {
-    // removes default disc bullet for li tags and applies margin to left & right side
     list-style-type: none;
     margin: 0 1rem;
   }
   .navigation_menu li a {
-    // increases the surface area of the anchor tag to span more than just the anchor text
     text-decoration: none;
     display: block;
     width: 100%;
