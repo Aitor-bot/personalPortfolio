@@ -1,13 +1,16 @@
 .navigation_container {
     height: 60px;
-    width: 100%;
+
     display: flex;
     align-items: center;
     position: relative;
-    padding: 0.5rem 0rem;
+    padding: 1rem 3rem;
     background-color: #0a0a10;
     color: rgb(255, 255, 255);
-    box-shadow: 0 1px 1px 1px rgba(73, 128, 248, 0.4);
+    box-shadow: 0 0.5px 0.5px 0.5px rgba(74, 75, 77, 0.7);
+    //box-shadow: 0 1px 1px 1px rgba(73, 128, 248, 0.4);
+
+
 
 }
 
