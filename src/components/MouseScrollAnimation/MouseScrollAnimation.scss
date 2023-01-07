@@ -5,24 +5,16 @@
 
     bottom: 10%;
     position: fixed;
-    left: 49%;
+    left: 50%;
   }
-  .mousey {
-    width: 3px;
-    padding: 10px 15px;
-    height: 35px;
-    border: 2px solid #4980F8;
-    border-radius: 25px;
-    opacity: 0.75;
-    box-sizing: content-box;
-  }
+
   .scroller {
     width: 3px;
-    height: 10px;
+    height: 12px;
     border-radius: 25%;
-    background-color: #ffffff;
+    background-color: #4980F8;
     animation-name: scroll;
-    animation-duration: 2.2s;
+    animation-duration: 1.5s;
     animation-timing-function: cubic-bezier(.15,.41,.69,.94);
     animation-iteration-count: infinite;
   }

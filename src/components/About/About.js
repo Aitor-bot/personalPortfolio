@@ -1,4 +1,5 @@
 import '../About/About.scss'
+import MouseScroll from '../MouseScrollAnimation/MouseScrollAnimation';
 
 function About() {
 
@@ -9,6 +10,7 @@ function About() {
       <div className='about_button_container'>
         <button className="about_button">GITHUB</button>
         <button className="about_button">DOWNLOAD CV</button>
+        <MouseScroll></MouseScroll>
       </div>
     </div>
   );
