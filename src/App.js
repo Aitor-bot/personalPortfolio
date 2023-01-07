@@ -8,6 +8,8 @@ function App() {
     <div className="App">
       <Menu></Menu>
       <About></About>
+      <h1 className='skills'>SKILLS</h1>
+
     </div>
   );
 }
