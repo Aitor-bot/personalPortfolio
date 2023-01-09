@@ -9,9 +9,7 @@ function App() {
     <div className="App">
       <Menu></Menu>
       <About></About>
-      <ScrollButton></ScrollButton>
-      <h1 className='skills'>SKILLS</h1>
-      
+      <ScrollButton></ScrollButton>      
 
     </div>
   );
