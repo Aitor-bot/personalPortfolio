@@ -3,9 +3,14 @@
   max-width: 1400px;
   margin: auto;
   height: 70vh;
-
-
 }
+
+@media only screen and (max-width: 480px) {
+  .about_container {
+    height: 80vh;
+  } 
+}
+
 
 .about_greetings {
   margin-top: 250px;
