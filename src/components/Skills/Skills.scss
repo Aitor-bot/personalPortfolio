@@ -30,8 +30,13 @@
 
 .skills_subcontainer img {
     height: 100px;
-
 }
+
+@media (max-width: 768px) {
+    .skills_subcontainer img {
+      height: 70px;
+    }
+  }
 
 .skills_logocontainer {
     display: flex;

@@ -43,16 +43,6 @@ function ScrollButton() {
                 </div>
 
                 <div className='skills_logocontainer'>
-                    <img src={php_logo} alt="php logo"></img>
-                    <p>PHP</p>
-                </div>
-
-                <div className='skills_logocontainer'>
-                    <img src={laravel_logo} alt="laravel logo"></img>
-                    <p>Laravel</p>
-                </div>
-
-                <div className='skills_logocontainer'>
                     <img src={git_logo} alt="git logo"></img>
                     <p>GIT</p>
                 </div>
@@ -67,7 +57,17 @@ function ScrollButton() {
                     <p>Express JS</p>
                 </div>
             </div>
+            {/*
+            <div className='skills_logocontainer'>
+                <img src={php_logo} alt="php logo"></img>
+                <p>PHP</p>
+            </div>
 
+            <div className='skills_logocontainer'>
+                <img src={laravel_logo} alt="laravel logo"></img>
+                <p>Laravel</p>
+            </div>
+            */}
 
 
         </div>
