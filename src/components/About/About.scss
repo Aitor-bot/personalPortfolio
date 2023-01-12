@@ -78,15 +78,10 @@
 .about_button:hover {
   background-color: #4980F8;
   border-color: white;
-  fill: #06f;
   color: black;
 }
 
-.about_button:active {
-  background-color: #3385ff;
-  border-color: #3385ff;
-  fill: #06f;
-}
+
 
 @media (min-width: 768px) {
   .about_button {
