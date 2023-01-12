@@ -8,8 +8,8 @@ function About() {
       <h1 className='about_greetings'>Hi, my name is Aitor</h1>
       <h2 className='about_skills'>Front End, Web and App developer.</h2>
       <div className='about_button_container'>
-        <button className="about_button">GITHUB</button>
-        <button className="about_button">DOWNLOAD CV</button>
+        <a href="https://github.com/Aitor-bot" target="_blank" rel="noreferrer" className="about_button">GITHUB</a> { /* eslint-disable-next-line */}
+        <a className="about_button">DOWNLOAD CV</a>
         <MouseScroll></MouseScroll>
       </div>
     </div>
@@ -17,3 +17,6 @@ function About() {
 }
 
 export default About;
+
+
+
