@@ -17,23 +17,62 @@ function ScrollButton() {
         <div className='skills_container'>
             <h2 className='skills_title'>My Skills</h2>
             <div className='skills_subcontainer'>
-                <img src={html_logo} alt="html logo"></img>
-                <img src={css_logo} alt="css logo"></img>
-                <img src={js_logo} alt="js logo"></img>
-                <img src={react_logo} alt="react logo"></img>
-                <img src={nodejs_logo} alt="nodejs logo"></img>
-                <img src={php_logo} alt="php logo"></img>
-                <img src={laravel_logo} alt="laravel logo"></img>
-                <img src={git_logo} alt="git logo"></img>
-                <img src={mysql_logo} alt="mysql logo"></img>
-                <img src={express_logo} alt="express logo"></img>
+                <div className='skills_logocontainer'>
+                    <img src={html_logo} alt="html logo"></img>
+                    <p>HTML</p>
+                </div>
 
+                <div className='skills_logocontainer'>
+                    <img src={css_logo} alt="css logo"></img>
+                    <p>CSS</p>
+                </div>
 
+                <div className='skills_logocontainer'>
+                    <img src={js_logo} alt="js logo"></img>
+                    <p>JavaScript</p>
+                </div>
 
+                <div className='skills_logocontainer'>
+                    <img src={react_logo} alt="react logo"></img>
+                    <p>React JS</p>
+                </div>
+
+                <div className='skills_logocontainer'>
+                    <img src={nodejs_logo} alt="nodejs logo"></img>
+                    <p>Node JS</p>
+                </div>
+
+                <div className='skills_logocontainer'>
+                    <img src={php_logo} alt="php logo"></img>
+                    <p>PHP</p>
+                </div>
+
+                <div className='skills_logocontainer'>
+                    <img src={laravel_logo} alt="laravel logo"></img>
+                    <p>Laravel</p>
+                </div>
+
+                <div className='skills_logocontainer'>
+                    <img src={git_logo} alt="git logo"></img>
+                    <p>GIT</p>
+                </div>
+
+                <div className='skills_logocontainer'>
+                    <img src={mysql_logo} alt="mysql logo"></img>
+                    <p>MySQL</p>
+                </div>
+
+                <div className='skills_logocontainer'>
+                    <img src={express_logo} alt="express logo"></img>
+                    <p>Express JS</p>
+                </div>
             </div>
 
-            
+
+
         </div>
+
+
     );
 }
 
